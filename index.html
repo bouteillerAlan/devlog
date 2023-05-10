@@ -1,38 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>rm -rf /</title>
-    <link rel="stylesheet" href="style/fonts.css">
-    <link rel="stylesheet" href="style/index.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="style/anim.css"/>
+    <link rel="stylesheet" type="text/css" href="style/index.css" />
+    <title>A2N - devlog</title>
 </head>
-<body>
 
-<div class="container">
-    <br/> <!-- god dammit a br ! *cry loudly* -->
-    <h1>a2n -- devlog</h1>
-    <hr/>
-    <ul class="list">
-        <li><a href="">Replace nouveau by nvidia in existing eos install & choose between intel puce and nvidia gpu</a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-    </ul>
-    <hr/>
-    <small>Find me on github, on pling or on linkedin</small>
+<body class="theme-green">
+<div id="monitor">
+
+    <div id="screen">
+        <div id="crt">
+            <div class="scanline"></div>
+            <div class="terminal">
+                <p>
+                    ░█▀█░▀▀▄░█▀█░░░░░░░░░█▀▄░█▀▀░█░█░█░░░█▀█░█▀▀
+                    ░█▀█░▄▀░░█░█░░░▄▄▄░░░█░█░█▀▀░▀▄▀░█░░░█░█░█░█
+                    ░▀░▀░▀▀▀░▀░▀░░░░░░░░░▀▀░░▀▀▀░░▀░░▀▀▀░▀▀▀░▀▀▀
+                </p>
+                <p>Welcome to A2N - devlog (v1.0.0)</p>
+
+                <div>░ Logs :</div>
+                <ul>
+                    <li><a href="./blog/replace-nouveau-by-nvidia.html">Replace nouveau by nvidia on eos & choose between intel chips and nvidia gpu</a></li>
+                    <li><a href="./blog/replace-nouveau-by-nvidia.html">Get Pyno into nestjs (typescript)</a></li>
+                </ul>
+
+                <div>░ Most recent projects :</div>
+                <ul>
+                    <li><a href="https://github.com/bouteillerAlan/blurredwallpaper">Active blur - KDE plasma wallpaper plugin</a></li>
+                    <li><a href="https://github.com/bouteillerAlan/appcounter">App counter - KDE plasma widget</a></li>
+                    <li><a href="https://github.com/bouteillerAlan/archupdate">Arch update - KDE plasma widget</a></li>
+                </ul>
+
+                <div><small>░ Find me on <a href="https://github.com/bouteillerAlan">github</a>, <a
+                        href="https://www.pling.com/u/a2-n">pling</a> or
+                    <a href="https://www.linkedin.com/in/a2n/">linkedin</a></small></div>
+                <div><small>░ Support me via <a href="https://github.com/sponsors/bouteillerAlan">github</a> or <a
+                        href="https://www.buymeacoffee.com/a2n.dev">buy me a coffee</a></small></div>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 </body>
-
-<script>
-    const fs = require('fs');
-    const files = fs.readdirSync('/assets/photos/');
-    console.log('####### here')
-    console.log(files)
-</script>
-
 </html>

@@ -1,22 +1,20 @@
-/* font */
 @font-face { font-family: BarlowCondensed; src: url('../fonts/barlowCondensed/BarlowCondensed-Regular.ttf'); }
-/*@font-face { font-family: Delicious; font-weight: bold; src: url('Delicious-Bold.otf');}*/
 
 html {font-size: 100%;} /*16px*/
 
 body {
     background: white;
-    font-family: 'BarlowCondensed', sans-serif;
+    /*font-family: 'BarlowCondensed', sans-serif;*/
+    font: 1.3rem Inconsolata, monospace;
     font-weight: 400;
     line-height: 1.75;
-    color: #000000;
+    color: #fff;
 }
 
 p {margin-bottom: 1rem;}
 
 h1, h2, h3, h4, h5 {
     margin: 3rem 0 1.38rem;
-    font-family: 'BarlowCondensed', sans-serif;
     font-weight: 400;
     line-height: 1.3;
 }
