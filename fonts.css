@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100..700&family=Rubik+Mono+One&display=swap');
 
 html {font-size: 100%;} /*16px*/
 
@@ -11,6 +13,16 @@ body {
 }
 
 p {margin-bottom: 1rem;}
+
+.title {
+	font-family: "M PLUS Code Latin", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+	font-size: 17rem;
+}
 
 h1, h2, h3, h4, h5 {
     margin: 3rem 0 1.38rem;

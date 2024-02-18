@@ -1,0 +1,193 @@
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+body {
+	background-color: #ECE9E1;
+	margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+a {
+    color: #3498db;
+}
+
+a:visited {
+    color: #2980b9;
+}
+
+a:hover, a:visited:hover {
+    color: #2c3e50;
+}
+
+.code {
+    background-color: #d0d0d0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.fullw {
+	width: 100%;
+}
+
+.cliping-container {
+	max-width: 100VW;
+    overflow: hidden;
+	height: 435px;
+}
+
+.red {
+	color: #E43C13;
+}
+
+.title {
+	position: relative;
+	width: max-content;
+	top: -35px;
+	left: -30px;
+	transform: scaleY(2);
+}
+
+.version {
+	font-weight:bold;
+}
+
+.prez {
+	font-weight: 600;
+}
+
+.project {
+	padding-top: 50px;
+}
+
+.unit {
+	border-bottom: 1px solid #E43C13;
+    border-top: 1px solid #E43C13;
+	margin-top: -1px;
+}
+
+.grid {
+	display: grid;
+	grid-column-gap: 2rem;
+	grid-template-columns: repeat(6, minmax(0,1fr));
+}
+
+.col1 {
+	grid-column: 1/span 1;
+}
+
+.col1span2 {
+	grid-column: 1/span 2;
+}
+
+.col2 {
+	grid-column: 2/span 1;
+}
+
+.col3 {
+	grid-column: 3/span 1;
+}
+
+.col4, .findme {
+	grid-column: 4/span 1;
+}
+
+.gpg {
+	grid-column: 5/span 2;
+	text-align: right;
+}
+
+.col5 {
+	grid-column: 5/span 1;
+}
+
+.col6 {
+	grid-column: 6/span 1;
+}
+
+.pdate {
+	grid-column: 1/span 1;
+}
+
+.ptitle {
+	grid-column: 2/span 3;
+}
+
+.plogo {
+	grid-column: 6/span 1;
+	display: flex;
+	align-content: center;
+    flex-wrap: wrap;
+}
+
+.plogo a {
+	padding-right: 20px;
+}
+
+.plogo a:hover #ytcolor {
+  #fill: #CE1312;
+  fill: #000000;
+}
+
+.plogo a:hover #mcolor {
+  fill: #000000;
+}
+
+.plogo a:hover #ghcolor {
+  fill: #000000;
+}
+
+.footer {
+	padding: 50px 0;
+}
+
+@media screen and (max-width: 768px) {
+	.title {
+		top: -54px;
+		font-size: 10rem;
+	}
+	
+	.cliping-container {
+		height: 190px;
+	}
+	
+	.project {
+		padding-top: 0;
+	}
+	
+	.gpg {
+		grid-column: 2/span 5;
+	}
+	
+	.version {
+		font-size: x-small;
+	}
+	
+	.col1span2 {
+		grid-column: 1/span 3;
+	}
+	
+	.findme {
+		grid-column: 4/span 3;
+	}
+}
