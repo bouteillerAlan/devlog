@@ -168,7 +168,7 @@ a:hover, a:visited:hover {
 }
 	
 @media screen and (max-width: 768px) {
-	.prez col1 {
+	.prez > .col1 {
 		grid-column: 1/span 5;
 	}
 	.title {
