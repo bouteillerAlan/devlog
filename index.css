@@ -161,6 +161,10 @@ a:hover, a:visited:hover {
 	padding: 50px 0;
 }
 
+.notdesktop {
+	display: none;
+}
+	
 @media screen and (max-width: 768px) {
 	.title {
 		top: -54px;
