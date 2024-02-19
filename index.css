@@ -161,11 +161,16 @@ a:hover, a:visited:hover {
 	padding: 50px 0;
 }
 
-.notdesktop {
-	display: none;
+@media screen and (min-width: 768px) {
+	.notdesktop {
+		display: none;
+	}
 }
 	
 @media screen and (max-width: 768px) {
+	.prez col1 {
+		grid-column: 1/span 5;
+	}
 	.title {
 		top: -54px;
 		font-size: 10rem;
@@ -192,7 +197,7 @@ a:hover, a:visited:hover {
 	}
 	
 	.findme {
-		grid-column: 4/span 3;
+		grid-column: 1/span 5;
 	}
 
 	.notmobile {
